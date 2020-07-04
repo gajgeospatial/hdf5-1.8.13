@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2130C3A4-73AD-447A-8AB3-651A0D9498D2}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Development\op3d_active\hdf5-1.8.13\msvc;D:\Development\op3d_active\hdf5-1.8.13\src;D:\Development\op3d_active\hdf5-1.8.13\msvc\bin;D:\Development\op3d_active\zlib-1.2.8;D:\Development\op3d_active\hdf5-1.8.13\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Development\op3d_active\hdf5-1.8.13\msvc;D:\Development\op3d_active\hdf5-1.8.13\src;D:\Development\op3d_active\hdf5-1.8.13\msvc\bin;D:\Development\op3d_active\zlib-1.2.8;D:\Development\op3d_active\hdf5-1.8.13\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Development\op3d_active\hdf5-1.8.13\msvc;D:\Development\op3d_active\hdf5-1.8.13\src;D:\Development\op3d_active\hdf5-1.8.13\msvc\bin;D:\Development\op3d_active\zlib-1.2.8;D:\Development\op3d_active\hdf5-1.8.13\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Development\op3d_active\hdf5-1.8.13\msvc;D:\Development\op3d_active\hdf5-1.8.13\src;D:\Development\op3d_active\hdf5-1.8.13\msvc\bin;D:\Development\op3d_active\zlib-1.2.8;D:\Development\op3d_active\hdf5-1.8.13\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\hl\examples\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Development/op3d_active/hdf5-1.8.13/hl/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Development/op3d_active/hdf5-1.8.13 -BD:/Development/op3d_active/hdf5-1.8.13/msvc --check-stamp-file D:\Development\op3d_active\hdf5-1.8.13\msvc\hl\examples\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Development/op3d_active/hdf5-1.8.13/hl/examples/CMakeLists.txt;D:\Development\op3d_active\hdf5-1.8.13\hl\examples\CMakeLists.txt;D:\Development\op3d_active\hdf5-1.8.13\hl\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Development\op3d_active\hdf5-1.8.13\msvc\hl\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Development/op3d_active/hdf5-1.8.13/hl/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Development/op3d_active/hdf5-1.8.13 -BD:/Development/op3d_active/hdf5-1.8.13/msvc --check-stamp-file D:\Development\op3d_active\hdf5-1.8.13\msvc\hl\examples\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Development/op3d_active/hdf5-1.8.13/hl/examples/CMakeLists.txt;D:\Development\op3d_active\hdf5-1.8.13\hl\examples\CMakeLists.txt;D:\Development\op3d_active\hdf5-1.8.13\hl\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Development\op3d_active\hdf5-1.8.13\msvc\hl\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Development/op3d_active/hdf5-1.8.13/hl/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Development/op3d_active/hdf5-1.8.13 -BD:/Development/op3d_active/hdf5-1.8.13/msvc --check-stamp-file D:\Development\op3d_active\hdf5-1.8.13\msvc\hl\examples\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Development/op3d_active/hdf5-1.8.13/hl/examples/CMakeLists.txt;D:\Development\op3d_active\hdf5-1.8.13\hl\examples\CMakeLists.txt;D:\Development\op3d_active\hdf5-1.8.13\hl\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Development\op3d_active\hdf5-1.8.13\msvc\hl\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Development/op3d_active/hdf5-1.8.13/hl/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Development/op3d_active/hdf5-1.8.13 -BD:/Development/op3d_active/hdf5-1.8.13/msvc --check-stamp-file D:\Development\op3d_active\hdf5-1.8.13\msvc\hl\examples\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Development/op3d_active/hdf5-1.8.13/hl/examples/CMakeLists.txt;D:\Development\op3d_active\hdf5-1.8.13\hl\examples\CMakeLists.txt;D:\Development\op3d_active\hdf5-1.8.13\hl\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Development\op3d_active\hdf5-1.8.13\msvc\hl\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\8e892df57c09d04b54963c8fed020ad9\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Development/op3d_active/hdf5-1.8.13/msvc/CMakeFiles/8e892df57c09d04b54963c8fed020ad9/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Development\op3d_active\hdf5-1.8.13\msvc\hl\examples\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Development/op3d_active/hdf5-1.8.13/msvc/CMakeFiles/8e892df57c09d04b54963c8fed020ad9/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Development\op3d_active\hdf5-1.8.13\msvc\hl\examples\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Development/op3d_active/hdf5-1.8.13/msvc/CMakeFiles/8e892df57c09d04b54963c8fed020ad9/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Development\op3d_active\hdf5-1.8.13\msvc\hl\examples\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Development/op3d_active/hdf5-1.8.13/msvc/CMakeFiles/8e892df57c09d04b54963c8fed020ad9/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Development\op3d_active\hdf5-1.8.13\msvc\hl\examples\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_ds1.vcxproj">
+      <Project>EF64C5F3-FA5F-456A-8E79-8EDDE9D0FED6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_image1.vcxproj">
+      <Project>3A5EFFF3-EF63-4EDC-90AD-14C84140ADA3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_image2.vcxproj">
+      <Project>575EDC7D-08B7-496B-8100-0305205B6866</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_lite1.vcxproj">
+      <Project>9075894F-70F6-4A02-BC79-26E8300D6F1F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_lite2.vcxproj">
+      <Project>23D41143-3A5D-4D69-93AC-69C2DEB47AF0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_lite3.vcxproj">
+      <Project>176781FF-73A8-47C3-9BBC-E27114801E99</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_table_01.vcxproj">
+      <Project>9C0D9551-C82F-418E-A3C4-C88EF15C1DF0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_table_02.vcxproj">
+      <Project>8CFC8D03-FDBA-4431-BA04-6CC2DFE03452</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_table_03.vcxproj">
+      <Project>94B0B0CA-AB27-4372-82A9-6063B050D26D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_table_04.vcxproj">
+      <Project>7A869BD7-B8AE-4D79-9CB4-E478436BE30C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_table_05.vcxproj">
+      <Project>72D83C20-17F7-4BCE-8785-B681FB07E132</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_table_06.vcxproj">
+      <Project>ADBB1585-4F11-42AB-B6C5-E14390FF5B8A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_table_07.vcxproj">
+      <Project>075B38C9-5EBE-44CC-AC50-CAF637EE211C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_table_08.vcxproj">
+      <Project>9B85BAEE-429B-421B-94D9-45B0FE0C7F8A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_table_09.vcxproj">
+      <Project>4067FA3F-3D5F-476A-B594-3C871108CC19</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_table_10.vcxproj">
+      <Project>76D1D3D2-B32C-4357-8F6A-6CA2C4F8ED62</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_table_11.vcxproj">
+      <Project>656C7184-12C6-4C65-8CC4-B05B6F9E7485</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ex_table_12.vcxproj">
+      <Project>5C04D45E-CA2C-4449-B28C-D73A6D03EA44</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/hdf5-1.8.13/msvc/hl/examples/hl_ex_ptExampleFL.vcxproj">
+      <Project>087A1407-2153-4DA4-B258-A1BAB06E22A0</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

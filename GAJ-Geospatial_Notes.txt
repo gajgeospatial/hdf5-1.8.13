@@ -1,0 +1,7 @@
+For GDAL:
+After building new version
+create /Include directory
+copy all .h files from /src into /Include
+copy all .h files from /msvc into /Include
+
+set envionment to HDF5_DIR with project tool
