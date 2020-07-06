@@ -13,3 +13,5 @@ vc142
 **/*.VC.db
 **/ipch*
 *.suo
+msvc/H5lib_settings.c
+msvc/H5Tinit.c
